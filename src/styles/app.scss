@@ -1,0 +1,80 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.search-bar {
+  border: 1px solid lightgray;
+  width: 600px;
+  height: 45px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+.search-bar:hover {
+  box-shadow: 0 0 4px 0 #b5b5b5;
+}
+.search-bar i {
+  font-size: 18px;
+  color: gray;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.search-bar input {
+  flex-grow: 1;
+  height: 30px;
+  margin-right: 15px;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+  border: none;
+}
+.search-bar input:focus {
+  outline: none;
+}
+.search-btns {
+  margin-top: 20px;
+}
+.search-btns button {
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: black;
+  background: #f2f3f4;
+}
+.search-btns button:hover {
+  border: 1px solid lightgray;
+}
+.google-search-btn {
+  width: 120px;
+}
+.lucky-search-btn {
+  width: 140px;
+}
+.language {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.language p a {
+  color: blue;
+}
+.language p a:hover {
+  text-decoration: underline;
+}
